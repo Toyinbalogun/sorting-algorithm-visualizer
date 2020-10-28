@@ -16,6 +16,7 @@ canvas.grid(row=1,column=0, padx=10, pady=5)
 
 #Row 0
 
+
 #Row 1
 
 
