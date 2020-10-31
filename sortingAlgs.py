@@ -16,7 +16,9 @@ canvas.grid(row=1,column=0, padx=10, pady=5)
 
 #User Interface Area
 #Row[0]
-
+Label(UI_frame, text="Algorithm: ", bg='grey').grid(row=0,column=0, padx=10, pady=5, sticky=W)
+algMenu = ttk.Combobox(UI_frame, textvariable=selected_alg, vlues=['Bubble Sort', 'Merge Sort'])
+algMenu.grid(row=0)
 #Row[1]
 
 
