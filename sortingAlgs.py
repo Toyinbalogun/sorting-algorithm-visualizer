@@ -37,7 +37,7 @@ def drawData(data):
 def Generate():
     print("Alg Selected: " + selected_alg.get())
 
-    data = [1,2,4,6]
+    data = [10,20,40,60]
     drawData(data)
 
 #frame and base layout
