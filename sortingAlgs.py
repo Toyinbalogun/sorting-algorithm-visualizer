@@ -11,7 +11,6 @@ root.config(bg='black')
 selected_alg = StringVar()
 
 #functions
-
 def drawData(data):
     c_height = 380
     c_width = 600
@@ -30,7 +29,6 @@ def drawData(data):
 
         canvas.create_rectangle(x0, y0, x1, y1, fill="red")
         canvas.create_text(x0+2, y0, anchor=SW, text= str(data[i]))
-
 
 
 
