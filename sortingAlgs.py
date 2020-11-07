@@ -12,16 +12,20 @@ selected_alg = StringVar()
 
 #functions
 def drawData(data):
+    canvas.delete("all")
     c_height = 380
     c_width = 600
     x_width = c_width/ (len(data) + 1)
     offset = 30
     spacing = 10
 
-    for i, height in enumerate(data):
+    #normalize data
+    normalizeData = [i/max(data) for i in data]
+
+    for i, height in enumerate(normalizeData):
         #top left
         x0 = i * x_width + offset + spacing
-        y0 = c_height - height
+        y0 = c_height - height * 340
 
         #bottom right
         x1 = (i + 1) * x_width + offset 
@@ -35,7 +39,18 @@ def drawData(data):
 def Generate():
     print("Alg Selected: " + selected_alg.get())
 
-    data = [10,20,40,60]
+    minVal = int(minEntry.get())
+    
+    maxVal = int(maxEntry.get())
+
+    size = int(sizeEntry.get())
+
+    data =[]
+    for _ in range(size):
+        data.append(random.randrange(minVal, maxVal+1)) #maxVal inclusive
+    
+    # === TEST ===
+    # data = [1, 2, 4, 6]
     drawData(data)
 
 #frame and base layout
