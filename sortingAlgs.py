@@ -38,12 +38,23 @@ def drawData(data):
 
 def Generate():
     print("Alg Selected: " + selected_alg.get())
+    try:
+        minVal = int(minEntry.get())
+    except:
+        minVal = 1
+    try:
+        maxVal = int(maxEntry.get())
+    except:
+        maxVal = 10
+    try:
+        size = int(sizeEntry.get())
+    except:
+        size = 10
 
-    minVal = int(minEntry.get())
-    
-    maxVal = int(maxEntry.get())
-
-    size = int(sizeEntry.get())
+    if minVal < 0 : minVal = 0
+    if maxVal > 100 : maxVal = 100
+    if size > 30 or size < 3: size = 25
+    if minVal > maxVal : minVal, maxVal = maxVal, minVal
 
     data =[]
     for _ in range(size):
