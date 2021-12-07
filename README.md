@@ -34,7 +34,7 @@ So that I have a nice study session and pass my courses 😊.
 ## Demo
 
 
-## Installing and running the code on computer
+## Installation
 
 1. clone the repo.
 2. open chrome and navigate to manage extensions.
