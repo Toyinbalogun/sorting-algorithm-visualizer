@@ -3,6 +3,7 @@ from tkinter import ttk
 import random
 from bubbleSort import bubble_sort 
 from quicksort import quick_sort
+from mergesort import merge_sort
 
 root =Tk()
 root.title("Sorting Algorithm Visualizer")
@@ -54,12 +55,16 @@ def StartAlgorithm():
     global data
     if not data: return
 
-    if algMenu.get() == "Quick Sort":
+    if algMenu.get() == 'Quick Sort':
         quick_sort(data, 0, len(data)-1, drawData, speedScale.get())
-        drawData(data, ['green' for x in range(len(data))])
     
-    elif algMenu.get() == "Bubble Sort":
+    elif algMenu.get() == 'Bubble Sort':
         bubble_sort(data, drawData, speedScale.get())
+
+    elif algMenu.get() == 'Merge Sort':
+        merge_sort(data, drawData, speedScale.get())
+    
+    drawData(data, ['green' for x in range(len(data))])
 
 #UI frame / base layout
 UI_frame = Frame(root, width=600, height=200, bg="grey")
