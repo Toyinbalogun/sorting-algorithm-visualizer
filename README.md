@@ -21,7 +21,7 @@
 
 ## Project Description
 
-A simple python gui leveraging tkinter modules to implementing and visualize data algorithms like Bubble Sort, Quick Sort and Merge Sort, which is a widely used sorting and organizing data. 
+A simple python gui leveraging tkinter modules to implementing and visualize data algorithms like Bubble Sort, Quick Sort and Merge Sort, which is a widely used in sorting and organizing data. 
 
 ## User story
 
