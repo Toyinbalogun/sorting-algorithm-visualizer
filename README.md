@@ -21,14 +21,14 @@
 
 ## Project Description
 
-A simple chrome extension built using new chrome manifest v2 to cut distractions while studying by blocking access to social web pages like Twitter, Discord, Reddit etc. 
+A simple python gui leverage tkinter modules to implementing and visualize data algorithms like Bubble Sort, Quick Sort and Merge Sort, which is a widely used sorting and organizing data. 
 
 ## User story
 
 ```
 As a user,
-I want to be able to study distraction free.
-So that I have a nice study session and pass my courses 😊.
+I want to be able to use the sorting visulizer to implement Bubble Sort, Quick Sort and Merge Sort.
+So that I have a better understanding of these algorithms an dtheir implementation.
 ```
 
 ## Demo
@@ -37,10 +37,12 @@ So that I have a nice study session and pass my courses 😊.
 ## Installation
 
 1. clone the repo.
-2. open chrome and navigate to manage extensions.
-3. navigate to load unpacked.
-4. select the directory you just cloned to your system.
-5. activate the extension and study distraction free.
+2. cd into repo.
+3. run python script.
+```
+python3 .\sortingAlgs.py
+```
+4. play around with algorithms and data sizes and let the program run.
 
 ## Contributing
 
