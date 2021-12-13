@@ -33,7 +33,7 @@ So that I have a better understanding of these algorithms an dtheir implementati
 
 ## Demo
 <p align="center">
-    <img src="./img/bubble.gif" width="200" height="200">
+    <img src="./img/bubble.gif" width="400" height="400">
 </p>
 <p align="center">
     <img src="./img/mergesort.gif">
