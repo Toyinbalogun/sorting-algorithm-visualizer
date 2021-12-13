@@ -37,6 +37,7 @@ Bubble Sort
     <img src="./img/bubble.gif">
 </p>
 <br />
+<br />
 <p align="center">
 Merge Sort
     <img src="./img/mergesort.gif">
