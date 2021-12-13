@@ -32,8 +32,7 @@ So that I have a better understanding of these algorithms an dtheir implementati
 ```
 
 ## Demo
-<p align="center">
-Bubble Sort
+<p align="center" width="200" height="200">
     <img src="./img/bubble.gif">
 </p>
 <p align="center">
