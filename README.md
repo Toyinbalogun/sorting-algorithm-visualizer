@@ -36,7 +36,10 @@ So that I have a better understanding of these algorithms an dtheir implementati
 Bubble Sort
     <img src="./img/bubble.gif">
 </p>
-
+<p align="center">
+Merge Sort
+    <img src="./img/mergesort.gif">
+</p>
 
 ## Installation
 
