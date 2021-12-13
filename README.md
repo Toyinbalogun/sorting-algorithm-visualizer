@@ -32,6 +32,10 @@ So that I have a better understanding of these algorithms an dtheir implementati
 ```
 
 ## Demo
+<p align="center">
+Bubble Sort
+    <img src="./img/bubble.png">
+</p>
 
 
 ## Installation
